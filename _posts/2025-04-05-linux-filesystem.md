@@ -1,12 +1,9 @@
 ---
 title: "File System of Linux"
-categories:
-  - Linux
-tags:
-  - linux basics
-  - file system
 layout: single
-author_profile: false
-read_time: true
+categories: [Linux]
+permalink: /posts/linux/linux-filesystem/
+
 ---
+
 This is about Linux File System

@@ -1,14 +1,11 @@
 ---
 title: "Introduction to Linux"
-categories:
-  - Linux
-tags:
-  - basics
-  - introduction
 layout: single
-author_profile: false
-read_time: true
+categories: [Linux]
+permalink: /posts/linux/introduction-to-linux/
 ---
+
+
 This is Introduction to Linux Operating System
 
 💻 What is Linux?
