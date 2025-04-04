@@ -1,8 +1,15 @@
 ---
 title: "Introduction to Linux"
+categories: 
+  - Linux
+tags: 
+  - Basic of Linux
+  - Introduction
+date: 2025-04-05
 layout: single
-categories: [Linux]
-permalink: /posts/linux/introduction-to-linux/
+author_profile: true
+---
+
 ---
 
 
