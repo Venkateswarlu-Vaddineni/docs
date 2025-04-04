@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "air" #"default" # "air", "aqua", "contrast", "dark",
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Venkat Cloud Docs"
+title                    : "Venkat Cloud"
 title_separator          : "-"
 subtitle                 : Cloud, Minus the Complexity
 name                     : "Venkat Vaddineni"
