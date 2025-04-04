@@ -264,6 +264,8 @@ defaults:
       type: posts
     values:
       show_date: false
+      show_last_updated: false
+
 #Hide Profile from all Posts
 defaults:
   - scope:
