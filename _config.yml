@@ -66,8 +66,8 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  path                   : "" #blank (default) uses feed.xml
+  hide                   : "true"
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -140,7 +140,8 @@ author:
 
 # Site Footer
 footer:
-  links:
+  links: 
+    - rss: false
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
