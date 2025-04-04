@@ -264,6 +264,13 @@ defaults:
       type: posts
     values:
       show_date: false
+#Hide Profile from all Posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sidebar: false
 
 # Plugins (previously gems:)
 plugins:
