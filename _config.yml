@@ -257,6 +257,13 @@ pagination:
     before: 2
     after: 2
 
+#Hide Date from all Posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: false
 
 # Plugins (previously gems:)
 plugins:
