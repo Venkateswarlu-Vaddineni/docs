@@ -7,7 +7,7 @@ tags:
   - Introduction
 date: 2025-04-05
 layout: single
-author_profile: true
+author_profile: false
 ---
 
 ---
