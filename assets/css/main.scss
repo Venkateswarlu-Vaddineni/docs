@@ -8,23 +8,21 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Light grey code background, suitable for printing
+// ✅ Light grey background, black text, dark green comments
 .highlight,
 .highlight pre,
 pre,
 pre code {
-  background-color: #f5f5f5 !important; // Light grey
-  color: #333 !important;               // Dark text for contrast
+  background-color: #f5f5f5 !important;
   border-radius: 6px;
-  padding: 1em;
-  border: 1px solid #ccc;
+  padding: 0.8em;
   overflow-x: auto;
+  color: #000 !important; // Default text color (commands)
 }
 
-// Inline code
-code {
-  background-color: #f5f5f5 !important;
-  color: #333 !important;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
+// Comments - target by syntax highlighting class
+.highlight .c,   // general comments
+.highlight .cm,  // multi-line comments
+.highlight .c1 { // single-line comments
+  color: #2e7d32 !important; // Dark green for comments
 }
