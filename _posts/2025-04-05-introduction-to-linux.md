@@ -39,13 +39,16 @@ ls -a #Lists all files in current working directory including hidden files
 ls -al /home/ #Lists all files in /home Directory in list view including hidden files
 ```
 
-``bash
+```bash
 pwd         #Prints present working directory on terminal
 
 date        #Prints today's date on terminal
 
 mkdir venkat       #Creates a Directory name venkat in current working directory
-``
+```
+
+![alt text](image.png)
+
 # Header
 ## Header
 ### Header
