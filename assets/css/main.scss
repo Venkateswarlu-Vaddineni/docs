@@ -8,33 +8,41 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// ✅ Slightly darker grey for code background (distinct from site background)
+// Code Block Styling - Venkat Custom
+
+// Background & block style
 .highlight,
 .highlight pre,
 pre,
 pre code {
-  background-color: #e0e0e0 !important; // Real light grey
+  background-color: #f0f0f0 !important; // Light grey
+  color: #000 !important;               // Default black
   border-radius: 6px;
   padding: 0.8em;
   overflow-x: auto;
-  color: #000 !important; // Default: commands in black
+  font-family: Menlo, Consolas, monospace;
 }
 
-// ✅ Comments: dark green
-.highlight .c,
-.highlight .cm,
-.highlight .c1 {
-  color: #2e7d32 !important;
-}
-
-// ✅ Commands / built-ins (optional override if needed)
-.highlight .nb,  // Built-in names
-.highlight .k,   // Keywords
-.highlight .o {  // Operators
+// Commands (e.g., ls, mkdir)
+.highlight .nb {
+  font-weight: bold;
   color: #000 !important;
 }
 
-// ✅ Strings/Arguments like "/home" can stay as-is or slightly darker
-.highlight .s {
-  color: #333 !important; // Slightly darker than usual
+// Options/Arguments (e.g., -al, /home)
+.highlight .k,
+.highlight .o,
+.highlight .nt,
+.highlight .n,
+.highlight .s1 {
+  font-weight: bold;
+  color: #005cc5 !important;
+}
+
+// Comments (e.g., # this is a comment)
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: #006400 !important;
+  font-weight: normal;
 }
