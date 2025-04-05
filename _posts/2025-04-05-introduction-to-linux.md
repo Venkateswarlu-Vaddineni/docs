@@ -30,3 +30,11 @@ Shell: Interface to interact with the kernel via commands.
 File System: Hierarchical structure where everything is a file (even devices!).
 
 Distributions (Distros): Flavors of Linux like Ubuntu, Fedora, Debian, Arch, etc.
+
+```bash
+ls -l #Lists the files in current working directory in list view
+
+ls -a #Lists all files in current working directory including hidden files
+
+ls -al /home/ #Lists all files in /home Directory in list view including hidden files
+```
