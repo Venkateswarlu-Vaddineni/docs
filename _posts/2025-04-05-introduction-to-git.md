@@ -162,3 +162,43 @@ This puts you in a detached HEAD state — great for viewing or testing past ver
 **Note**: After a hard reset, if you didn’t note the commit hash, recovery is difficult.
 
 ---
+
+<script>
+  function printPost() {
+    const printContent = document.querySelector('main');
+    const original = document.body.innerHTML;
+    document.body.innerHTML = `<main>${printContent.innerHTML}</main>`;
+    window.print();
+    document.body.innerHTML = original;
+    location.reload();
+  }
+</script>
+
+<style>
+.print-btn {
+  float: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media print {
+  header, footer, nav, aside, .print-btn {
+    display: none !important;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    page-break-inside: avoid;
+  }
+}
+</style>
