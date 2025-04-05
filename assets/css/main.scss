@@ -8,21 +8,33 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// ✅ Light grey background, black text, dark green comments
+// ✅ Slightly darker grey for code background (distinct from site background)
 .highlight,
 .highlight pre,
 pre,
 pre code {
-  background-color: #f5f5f5 !important;
+  background-color: #e0e0e0 !important; // Real light grey
   border-radius: 6px;
   padding: 0.8em;
   overflow-x: auto;
-  color: #000 !important; // Default text color (commands)
+  color: #000 !important; // Default: commands in black
 }
 
-// Comments - target by syntax highlighting class
-.highlight .c,   // general comments
-.highlight .cm,  // multi-line comments
-.highlight .c1 { // single-line comments
-  color: #2e7d32 !important; // Dark green for comments
+// ✅ Comments: dark green
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+  color: #2e7d32 !important;
+}
+
+// ✅ Commands / built-ins (optional override if needed)
+.highlight .nb,  // Built-in names
+.highlight .k,   // Keywords
+.highlight .o {  // Operators
+  color: #000 !important;
+}
+
+// ✅ Strings/Arguments like "/home" can stay as-is or slightly darker
+.highlight .s {
+  color: #333 !important; // Slightly darker than usual
 }
