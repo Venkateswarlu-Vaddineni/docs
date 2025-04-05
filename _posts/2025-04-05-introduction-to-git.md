@@ -12,6 +12,8 @@ author_profile: false
 
 ## 🧠 Git Basics – Just What You Must Know
 
+<button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>
+
 Let's walk through Git using a simple real-world scenario:
 > Imagine you're writing a small program and want to track your changes efficiently, experiment safely, and roll back when needed. Git helps you do all of that, locally, without any remote server.
 
