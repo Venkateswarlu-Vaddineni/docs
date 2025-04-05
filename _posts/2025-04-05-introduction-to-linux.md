@@ -16,7 +16,7 @@ author_profile: false
 This is Introduction to Linux Operating System
 
 💻 What is Linux?
-Linux is a free and open-source operating system (OS) based on Unix. It powers everything from smartphones (like Android) and personal computers to servers, supercomputers, and even IoT devices.
+Linux is a free & open-source operating system (OS) based on Unix. It powers everything from smartphones (like Android) and personal computers to servers, supercomputers, and even IoT devices.
 
 Unlike Windows or macOS, Linux gives users more control over the system and is highly customizable. It’s known for being stable, secure, and efficient — making it popular among developers, system administrators, and tech enthusiasts.
 
