@@ -9,7 +9,6 @@ date: 2025-04-05
 layout: single
 author_profile: false
 ---
-## 🧠 Git Basics – Just What You Must Know
 
 ### 📌 What is Git?
 Git is a **free and open-source distributed version control system**, created by **Linus Torvalds** in 2005 to manage the Linux kernel codebase.
