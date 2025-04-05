@@ -1,0 +1,50 @@
+---
+title: "Introduction to git"
+categories: 
+  - Version-Control-Systems
+tags: 
+  - Basic of git
+  - Introduction
+date: 2025-04-05
+layout: single
+author_profile: false
+---
+<button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>
+
+---
+{% raw %}
+<script>
+function printPost() {
+  const printContent = document.querySelector('.page__content');
+  const original = document.body.innerHTML;
+  document.body.innerHTML = `<main>${printContent.innerHTML}</main>`;
+  window.print();
+  document.body.innerHTML = original;
+  location.reload();
+}
+</script>
+
+<style>
+.print-btn {
+  float: right;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media print {
+  header, footer, nav, aside, .print-btn {
+    display: none !important;
+  }
+  main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+</style>
+{% endraw %}
