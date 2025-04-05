@@ -9,24 +9,7 @@ date: 2025-04-05
 layout: single
 author_profile: false
 ---
-<!-- Shrink code block spacing + Add print button -->
 <style>
-/* Shrink spacing inside code blocks */
-pre, pre code {
-  font-size: 13px !important;
-  line-height: 1.3 !important;
-  padding: 0.5em 0.8em !important;
-  border-radius: 6px !important;
-  margin-top: 1em !important;
-  margin-bottom: 1em !important;
-}
-
-/* Inline code style (optional) */
-code {
-  font-size: 13px !important;
-  padding: 0.15em 0.4em;
-}
-
 /* Optional: Print button */
 #print-btn {
   background: #007acc;
@@ -39,14 +22,10 @@ code {
   margin: 1em 0;
 }
 </style>
-
 <a id="print-btn" href="#" onclick="window.print()">🖨️ Print This Page</a>
-
-
 ## 🧠 Git Basics – Just What You Must Know
 
-<button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>
-
+<!--<button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>-->
 Let's walk through Git using a simple real-world scenario:
 > Imagine you're writing a small program and want to track your changes efficiently, experiment safely, and roll back when needed. Git helps you do all of that, locally, without any remote server.
 
@@ -70,7 +49,6 @@ git config --list
 This sets your name, email, and editor globally (applies to all repos). The last command confirms the setup.
 
 ## 🔧 Basic Git Commands
-
 ### 📁 Initialize a Repo
 To start a Git repository:
 1. First, **create a folder** (or use an existing one) and move into it.
