@@ -19,7 +19,8 @@ author_profile: false
   text-decoration: none;
   border-radius: 4px;
   display: inline-block;
-  margin: 1em 0;
+  margin: 0.5em 0 0.2em 0;
+  margin-bottom: 0;
 }
 </style>
 <a id="print-btn" href="#" onclick="window.print()">🖨️ Print This Page</a>
