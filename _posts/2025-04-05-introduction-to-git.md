@@ -9,22 +9,39 @@ date: 2025-04-05
 layout: single
 author_profile: false
 ---
+<!-- Shrink code block spacing + Add print button -->
 <style>
-/* Reduce vertical spacing and padding in code blocks */
-.post-content pre {
-  font-size: 14px;
-  line-height: 1.3;
-  padding: 0.4em 0.6em;
-  margin: 1em 0;
-  border-radius: 6px;
+/* Shrink spacing inside code blocks */
+pre, pre code {
+  font-size: 13px !important;
+  line-height: 1.3 !important;
+  padding: 0.5em 0.8em !important;
+  border-radius: 6px !important;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
 }
 
-/* Optional: Inline code (single backtick `code`) */
-.post-content code {
+/* Inline code style (optional) */
+code {
+  font-size: 13px !important;
+  padding: 0.15em 0.4em;
+}
+
+/* Optional: Print button */
+#print-btn {
+  background: #007acc;
+  color: white;
+  padding: 6px 12px;
   font-size: 14px;
-  padding: 0.1em 0.3em;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 1em 0;
 }
 </style>
+
+<a id="print-btn" href="#" onclick="window.print()">🖨️ Print This Page</a>
+
 
 ## 🧠 Git Basics – Just What You Must Know
 
