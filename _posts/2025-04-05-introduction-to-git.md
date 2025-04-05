@@ -9,24 +9,8 @@ date: 2025-04-05
 layout: single
 author_profile: false
 ---
-<style>
-/* Optional: Print button */
-#print-btn {
-  background: #007acc;
-  color: white;
-  padding: 6px 12px;
-  font-size: 14px;
-  text-decoration: none;
-  border-radius: 4px;
-  display: inline-block;
-  margin: 0.5em 0 0.2em 0;
-  margin-bottom: 0;
-}
-</style>
-<a id="print-btn" href="#" onclick="window.print()">🖨️ Print This Page</a>
+<button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>
 ## 🧠 Git Basics – Just What You Must Know
-
-<!--<button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>-->
 Let's walk through Git using a simple real-world scenario:
 > Imagine you're writing a small program and want to track your changes efficiently, experiment safely, and roll back when needed. Git helps you do all of that, locally, without any remote server.
 
