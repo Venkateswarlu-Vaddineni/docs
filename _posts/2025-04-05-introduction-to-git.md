@@ -9,6 +9,11 @@ date: 2025-04-05
 layout: single
 author_profile: false
 ---
+<div style="font-size: 18px; line-height: 1.8;">
+  <p>This entire post will use this styling.</p>
+  <p>Another paragraph with the same style.</p>
+</div>
+
 
 ## 🧠 Git Basics – Just What You Must Know
 
