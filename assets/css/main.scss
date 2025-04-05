@@ -3,25 +3,40 @@
 
 @import "minimal-mistakes";
 
-// Custom dark styling for code blocks and inline code
-pre,
-code {
-  background-color: #2b303b !important;
-  color: #ffffff !important;
-}
-
-// Extra styling for fenced code blocks (e.g., ```bash)
+// Light grey background for code blocks
 .highlight {
-  background-color: #2b303b !important;
-  padding: 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-  overflow-x: auto;
-}
-
-// Optional: improve spacing and font visibility in inline `code`
-code {
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-size: 0.95em;
-}
+    background-color: #f5f5f5;
+    padding: 1em;
+    border-radius: 8px;
+    font-family: monospace;
+    font-size: 0.95rem;
+    color: #333;
+    overflow-x: auto;
+  }
+  
+  // General text bold
+  .highlight code {
+    font-weight: bold;
+  }
+  
+  // Comments (green, not bold)
+  .highlight .c, .highlight .c1, .highlight .cm {
+    color: #008000 !important;
+    font-weight: normal;
+  }
+  
+  // Command options like -l, -a (blue)
+  .highlight .nt, .highlight .k {
+    color: #0066cc !important;
+  }
+  
+  // File paths or directory args like /home (orange)
+  .highlight .s, .highlight .na {
+    color: #cc6600 !important;
+  }
+  
+  // Command name like ls, pwd, mkdir (black but bold)
+  .highlight .n, .highlight .nb {
+    color: #000000 !important;
+  }
+  
