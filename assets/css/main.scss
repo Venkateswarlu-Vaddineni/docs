@@ -1,48 +1,27 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
-@charset "utf-8";
+@import "minimal-mistakes";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-
-// Code Block Styling - Venkat Custom
-
-// Background & block style
-.highlight,
-.highlight pre,
+// Custom dark styling for code blocks and inline code
 pre,
-pre code {
-  background-color: #f0f0f0 !important; // Light grey
-  color: #000 !important;               // Default black
-  border-radius: 6px;
-  padding: 0.8em;
+code {
+  background-color: #2b303b !important;
+  color: #ffffff !important;
+}
+
+// Extra styling for fenced code blocks (e.g., ```bash)
+.highlight {
+  background-color: #2b303b !important;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
   overflow-x: auto;
-  font-family: Menlo, Consolas, monospace;
 }
 
-// Commands (e.g., ls, mkdir)
-.highlight .nb {
-  font-weight: bold;
-  color: #000 !important;
-}
-
-// Options/Arguments (e.g., -al, /home)
-.highlight .k,
-.highlight .o,
-.highlight .nt,
-.highlight .n,
-.highlight .s1 {
-  font-weight: bold;
-  color: #005cc5 !important;
-}
-
-// Comments (e.g., # this is a comment)
-.highlight .c,
-.highlight .c1,
-.highlight .cm {
-  color: #006400 !important;
-  font-weight: normal;
+// Optional: improve spacing and font visibility in inline `code`
+code {
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.95em;
 }
