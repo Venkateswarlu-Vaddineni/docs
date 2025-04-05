@@ -47,7 +47,7 @@ date        #Prints today's date on terminal
 mkdir venkat       #Creates a Directory name venkat in current working directory
 ```
 
-![This is our Homepage of docs.venkat.cloud](/images/image.png)
+![This is our Homepage of docs.venkat.cloud](/assets/images/image.png)
 
 # Header
 ## Header
