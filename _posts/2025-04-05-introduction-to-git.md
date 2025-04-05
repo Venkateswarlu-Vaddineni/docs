@@ -163,15 +163,16 @@ This puts you in a detached HEAD state — great for viewing or testing past ver
 
 ---
 
+{% raw %}
 <script>
-  function printPost() {
-    const printContent = document.querySelector('main');
-    const original = document.body.innerHTML;
-    document.body.innerHTML = `<main>${printContent.innerHTML}</main>`;
-    window.print();
-    document.body.innerHTML = original;
-    location.reload();
-  }
+function printPost() {
+  const printContent = document.querySelector('.page__content');
+  const original = document.body.innerHTML;
+  document.body.innerHTML = `<main>${printContent.innerHTML}</main>`;
+  window.print();
+  document.body.innerHTML = original;
+  location.reload();
+}
 </script>
 
 <style>
@@ -195,10 +196,6 @@ This puts you in a detached HEAD state — great for viewing or testing past ver
     width: 100%;
     margin: 0 auto;
   }
-  img {
-    max-width: 100%;
-    height: auto;
-    page-break-inside: avoid;
-  }
 }
 </style>
+{% endraw %}
