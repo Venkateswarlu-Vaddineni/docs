@@ -8,21 +8,23 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-/ 🖨️ Print-friendly code blocks
+// Light grey code background, suitable for printing
 .highlight,
 .highlight pre,
 pre,
 pre code {
-  background-color: #fdfdfd !important; // Almost white (low ink)
+  background-color: #f5f5f5 !important; // Light grey
+  color: #333 !important;               // Dark text for contrast
   border-radius: 6px;
-  padding: 0.8em;
+  padding: 1em;
+  border: 1px solid #ccc;
   overflow-x: auto;
-  border: 1px solid #ddd; // Light border for visual separation
 }
 
-// Optional: add this to avoid dark background on inline code too
+// Inline code
 code {
-  background-color: #fdfdfd !important;
+  background-color: #f5f5f5 !important;
+  color: #333 !important;
   padding: 0.2em 0.4em;
   border-radius: 4px;
 }
