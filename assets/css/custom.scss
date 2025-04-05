@@ -1,0 +1,17 @@
+/* assets/css/custom.scss */
+
+/* Compact code blocks */
+.highlight pre, pre.highlight, pre code {
+    padding: 8px 12px !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  
+  .highlight pre:only-child {
+    display: inline-block;
+  }
+  
