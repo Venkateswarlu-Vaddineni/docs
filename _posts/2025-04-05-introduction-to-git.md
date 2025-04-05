@@ -9,11 +9,22 @@ date: 2025-04-05
 layout: single
 author_profile: false
 ---
-<div style="font-size: 18px; line-height: 1.8;">
-  <p>This entire post will use this styling.</p>
-  <p>Another paragraph with the same style.</p>
-</div>
+<style>
+/* Reduce vertical spacing and padding in code blocks */
+.post-content pre {
+  font-size: 14px;
+  line-height: 1.3;
+  padding: 0.4em 0.6em;
+  margin: 1em 0;
+  border-radius: 6px;
+}
 
+/* Optional: Inline code (single backtick `code`) */
+.post-content code {
+  font-size: 14px;
+  padding: 0.1em 0.3em;
+}
+</style>
 
 ## 🧠 Git Basics – Just What You Must Know
 
