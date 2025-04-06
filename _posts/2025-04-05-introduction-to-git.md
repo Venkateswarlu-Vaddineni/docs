@@ -387,7 +387,7 @@ git reflog                # See HEAD history for recovery
 
 Now that you’re comfortable with Git basics, you’re ready for more advanced workflows like branching strategies, rebasing, cherry-picking, and using tags.
 
-Head over to our next guide: **"Mastering Git: Advanced Concepts"** to level up your Git game!
+Head over to our next guide: [**"Mastering Git: Advanced Concepts"**](https://docs.venkat.cloud/version-control-systems/mastering-git/) to level up your Git game!
 ---
 <script>
 function printPost() {
