@@ -12,7 +12,7 @@ author_profile: false
 <button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>
 
 ---
-{% raw %}
+
 <script>
 function printPost() {
   const printContent = document.querySelector('.page__content');
@@ -47,4 +47,4 @@ function printPost() {
   }
 }
 </style>
-{% endraw %}
+
