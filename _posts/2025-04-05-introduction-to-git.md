@@ -4,9 +4,10 @@ categories:
   - Version-Control-Systems
 tags: 
   - Basic of git
-  - Introduction
+  - git
 date: 2025-04-05
 layout: single
+author: Venkat Vaddineni
 author_profile: false
 ---
 <button onclick="printPost()" class="print-btn">🖨️ Print This Post</button>
