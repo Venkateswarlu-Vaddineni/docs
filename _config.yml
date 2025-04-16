@@ -116,9 +116,10 @@ author:
   name             : "Venkat Vaddineni"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "DevOps Engineer."
-  certifications   : "RHCE - Red Hat Certified Engineer"
-  certifications   : "RHCSA - Red Hat Certified System Administrator"
-  certifications   : "RHCVA - Red Hat Certified Virtualization Administrator"
+  certifications   : 
+  - "RHCE - Red Hat Certified Engineer"
+  - "RHCSA - Red Hat Certified System Administrator"
+  - "RHCVA - Red Hat Certified Virtualization Administrator"
   location         : "Hyderabad, IN"
   email            : "reachme@venkat.cloud"
   links:
