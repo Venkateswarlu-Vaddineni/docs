@@ -7,7 +7,7 @@ tags:
   - git
 date: 2025-04-05
 layout: single
-author: Venkat Vaddineni
+author: "Venkat Vaddineni"
 author_profile: false
 ---
 ## 🧠 Git Basics – Just What You Must Know
