@@ -22,6 +22,18 @@
     {% endif %}
   </div>
 
+  {% if site.author.certifications %}
+  <div class="author__certifications">
+    <h3 class="sidebar__title">Certifications</h3>
+    <ul>
+      {% for cert in site.author.certifications %}
+        <li>{{ cert }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
