@@ -26,10 +26,12 @@
   <div class="author__certifications">
     <h3 class="sidebar__title">Certifications</h3>
     <ul>
-      <ul class="author__certifications-list">
+      <ul>
         {% for cert in site.author.certifications %}
-          <li><span class="cert-badge">{{ cert }}</span></li>
+          <li>{{ cert }}</li>
         {% endfor %}
+      </ul>
+      
       </ul>
       
     </ul>
